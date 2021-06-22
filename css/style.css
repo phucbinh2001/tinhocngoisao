@@ -1,9 +1,15 @@
+.custom-font {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-size: 28px;
+}
+
 img {
     width: 100%;
 }
 
 .title {
-    width: 550px;
+    width: 50%;
     margin: 0 auto;
 }
 
@@ -39,7 +45,7 @@ img.logo {
 }
 
 .gift img {
-    border-radius: 0 50px 0 50px;
+    border-radius: 0 15% 0 15%;
 }
 
 .product a img {
@@ -65,4 +71,46 @@ footer img {
 footer p {
     font-size: 15px;
     margin-bottom: 5px;
+}
+
+footer .btn {
+    height: fit-content;
+    margin-bottom: 30px;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+    section {
+        min-height: 10px;
+    }
+
+    .title {
+        width: 90%;
+    }
+
+    img.logo {
+        height: 50px;
+    }
+
+    .navbar {
+        justify-content: center;
+    }
+
+    .navbar-brand {
+        margin-right: 0;
+    }
+
+    .navbar-nav {
+        display: none;
+    }
+
+    .custom-font {
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    footer p {
+        font-size: 14px;
+        color: rgb(230, 230, 230);
+    }
 }
