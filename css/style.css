@@ -52,9 +52,24 @@ img.logo {
     transition: 0.4s;
 }
 
-.product a:hover img {
+/* .product a:hover img {
     transform: scale3d(1.05, 1.05, 1.05);
     transition: 0.4s;
+}
+
+.product a:hover .sticker {
+    width: 100px;
+} */
+
+.col-md-6 a:hover img {
+    transform: scale3d(1.05, 1.05, 1.05);
+    transition: 0.4s;
+}
+
+.col-md-6 a:hover .sticker {
+    width: 80px;
+    transform: translateY(5px) translateX(5px);
+    border-radius: 6px;
 }
 
 footer {
@@ -76,6 +91,19 @@ footer p {
 footer .btn {
     height: fit-content;
     margin-bottom: 30px;
+}
+
+.sticker {
+    top: 1px;
+    right: 0px;
+    width: 60px;
+    height: auto;
+    border-radius: 0 0 0 6px;
+    z-index: 999;
+}
+
+.product a {
+    display: block;
 }
 
 /* Small devices (tablets, 768px and up) */
