@@ -67,7 +67,7 @@ img.logo {
 }
 
 .col-md-6 a:hover .sticker {
-    width: 80px;
+    height: 80px;
     transform: translateY(5px) translateX(5px);
     border-radius: 6px;
 }
@@ -135,6 +135,12 @@ footer .btn {
     .custom-font {
         font-size: 18px;
         font-weight: 400;
+    }
+
+    .col-md-6 a:hover .sticker {
+        height: 50px;
+        transform: translateY(2px) translateX(5px) scale3d(1,1,1);
+        border-radius: 6px;
     }
 
     footer p {
