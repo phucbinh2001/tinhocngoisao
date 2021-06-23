@@ -52,15 +52,6 @@ img.logo {
     transition: 0.4s;
 }
 
-/* .product a:hover img {
-    transform: scale3d(1.05, 1.05, 1.05);
-    transition: 0.4s;
-}
-
-.product a:hover .sticker {
-    width: 100px;
-} */
-
 .col-md-6 a:hover img {
     transform: scale3d(1.05, 1.05, 1.05);
     transition: 0.4s;
@@ -104,6 +95,13 @@ footer .btn {
 
 .product a {
     display: block;
+}
+
+.btn-custom {
+    color: #000;
+    border-radius: 20px;
+    padding: 3px 30px;
+    font-size: 18px;
 }
 
 /* Small devices (tablets, 768px and up) */
