@@ -67,7 +67,7 @@ img.logo {
 }
 
 .col-md-6 a:hover .sticker {
-    height: 80px;
+    width: 80px;
     transform: translateY(5px) translateX(5px);
     border-radius: 6px;
 }
@@ -138,8 +138,8 @@ footer .btn {
     }
 
     .col-md-6 a:hover .sticker {
-        height: 50px;
-        transform: translateY(2px) translateX(5px) scale3d(1,1,1);
+        width: 60px;
+        transform: translateY(2px) translateX(5px) scale3d(1, 1, 1);
         border-radius: 6px;
     }
 
